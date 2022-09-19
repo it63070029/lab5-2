@@ -35,7 +35,7 @@ public class SentenceConsumer {
 
     }
     @RabbitListener(queues = "GetQueue")
-    public Sentence getSentence(String s){
+    public Sentence getSentencs(){
        return sentences;
     }
 
